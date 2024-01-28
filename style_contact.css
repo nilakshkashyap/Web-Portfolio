@@ -1,0 +1,106 @@
+body {
+    font-family: 'Volkorn', 'Volkorn';
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-color: #e8e0d4;
+    background-image: url("./images/web_pattern-2.png");
+    background-repeat: repeat;
+}
+
+nav {
+    background-color: #e5cba0;
+    color: #702607;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 30px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #702607;
+    font-weight: bold;
+}
+
+nav .nav-link{
+    font-size: 24px;
+}
+
+nav .nav-link:hover{
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 28px;
+}
+
+.main-section {
+    padding: 5px 50px 50px;
+    text-align: left;
+}
+
+section div {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+
+section img {
+    width: 40px;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+section .heading{
+    font-size: 50px;
+    color:#702607;
+    align-items:center;
+    text-align: center;
+}
+
+section .name{
+    font-size: 24px;
+    color:#702607;
+}
+
+section a{
+    text-decoration: none;
+    color: #702607;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #e5cba0;
+    color: #702607;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 15px 0;
+    font-size: 24px;
+}
+
+footer img {
+    width: 30px;
+    margin-right: 15px;
+}

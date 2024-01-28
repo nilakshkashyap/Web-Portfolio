@@ -1,0 +1,127 @@
+body {
+    font-family: 'Volkorn', 'Volkorn';
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-color: #e8e0d4;
+    background-image: url("./images/web_pattern-2.png");
+    background-repeat: repeat;
+}
+
+nav {
+    background-color: #e5cba0;
+    color: #702607;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 30px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #702607;
+    font-weight: bold;
+}
+
+nav .nav-link{
+    font-size: 24px;
+}
+
+nav .nav-link:hover{
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 28px;
+}
+
+.main-section {
+    padding: 30px;
+    text-align: center;
+}
+
+section h1 {
+    color: #702607;
+    font-size: 50px;
+}
+
+section p{
+    padding:20px;
+    font-size: 40px;
+}
+
+
+footer{
+    background-color: #e5cba0;
+    color: #702607;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 15px 0;
+    font-size:24px;
+}
+
+footer img {
+    width: 30px;
+    margin: 0 35px;
+}
+
+article {
+    text-align: center; 
+}
+
+article ul {
+    list-style: none;
+    padding: 0px;
+    display: flex; 
+    justify-content: center;
+}
+
+article li {
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+article a {
+    text-decoration: none;
+    color: #702607;
+    font-weight: bold;
+    padding:10px;
+}
+
+article button {
+    padding: 25px 50px;
+    font-size: 16px;
+    background-color: #e5cba0; 
+    color: #702607; 
+    font-weight:bold;
+    border: 2px solid #e5cba0; 
+    border-radius: 25px; 
+    cursor: pointer;
+}
+
+
+article button:hover {
+    background-color: #d0b892; 
+    border-color: #702607;
+    transition: 0.4s;
+}
