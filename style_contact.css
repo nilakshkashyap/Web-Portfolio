@@ -4,15 +4,17 @@ body {
     padding: 0;
     background-size: cover;
     background-color: #e8e0d4;
-    background-image: url("./images/web_pattern-2.png");
+    background-image: url("./images/web_pattern-5.jpg");
     background-repeat: repeat;
 }
 
 nav {
     background-color: #e5cba0;
-    color: #702607;
-    padding: 10px;
+    background-image: url("./images/web_pattern-5.jpg");
+    color: #66fcf1;
+    padding: 20px;
     display: flex;
+    background-size: cover;
     justify-content: space-between;
     align-items: center;
 }
@@ -35,7 +37,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #702607;
+    color: #66fcf1;
     font-weight: bold;
 }
 
@@ -48,6 +50,7 @@ nav .nav-link:hover{
     transition: 0.4s;
     font-size: 28px;
 }
+
 
 .main-section {
     padding: 5px 50px 50px;
@@ -69,25 +72,26 @@ section img {
 
 section .heading{
     font-size: 50px;
-    color:#702607;
+    color:#66fcf1;
     align-items:center;
     text-align: center;
 }
 
 section .name{
     font-size: 24px;
-    color:#702607;
+    color:#66fcf1;
 }
 
 section a{
     text-decoration: none;
-    color: #702607;
+    color: #66fcf1;
     font-weight: bold;
 }
 
-footer {
-    background-color: #e5cba0;
-    color: #702607;
+footer{
+    background-color: rgba(102, 252, 241, 0.05);
+    border-top: 2px solid rgb(102, 252, 241);
+    color: #66fcf1;
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -97,10 +101,10 @@ footer {
 
 footer p {
     margin: 15px 0;
-    font-size: 24px;
+    font-size:24px;
 }
 
 footer img {
     width: 30px;
-    margin-right: 15px;
+    margin: 0 35px;
 }

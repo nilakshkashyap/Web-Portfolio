@@ -2,23 +2,24 @@ body {
     font-family: 'Volkorn', 'Volkorn';
     margin: 0;
     padding: 0;
-    background-image: url("./images/web_pattern-2.png");
+    background-image: url("./images/web_pattern-5.jpg");
     background-size: cover;
     background-repeat: repeat;
     background-color: #e8e0d4;
-    padding-bottom: 150px
+    padding-bottom: 0
 }
 
 header {
     background-color: #e5cba0;
-    color: #702607;
+    color: #66fcf1;
+    background-image: url("./images/web_pattern-5.jpg");
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     width:100%;
-    z-index: 1000;
+    border-bottom: 2px solid #66fcf1;
 }
 
 header .logo {
@@ -39,7 +40,7 @@ header li {
 
 header a {
     text-decoration: none;
-    color: #702607;
+    color: #66fcf1;
     font-weight: bold;
 }
 
@@ -54,14 +55,14 @@ header .nav-link:hover{
 }
 
 .main-section {
-    padding: 80px 30px 30px;
+    padding: 80px 70px 150px;
     text-align: left;
 }
 
 
 
 section h1 {
-    color: #702607;
+    color: #66fcf1;
     font-size: 50px;
 }
 
@@ -71,7 +72,7 @@ section div{
 }
 
 section h2 {
-    color: #702607;
+    color: #66fcf1;
     font-size:30px;
 }
 
@@ -82,38 +83,44 @@ section p{
     padding-right: 100px;
     text-align: justify;
     justify-content: space-between;
+    color: white;
+}
+
+section b{
+    color: #66fcf1;
 }
 
 section a{
     text-decoration: none;
-    color: #702607;
+    color: #66fcf1;
     font-weight: bold;
 }
 
-section img{
-    max-width: 100%; 
+section img {
+    max-width: 100%;
     max-height: 250px;
-    padding-right: 100px;
+    border: 4px solid #66fcf1;
 }
 
+
 footer{
-    background-color: #e5cba0;
-    color: #702607;
+    background-color: rgba(102, 252, 241, 0.05);
+    border-top: 2px solid #66fcf1;
+    color: #66fcf1;
     text-align: center;
     padding: 5px;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
 
 footer p {
     margin: 15px 0;
-    font-size:24px;
+    font-size:30px;
 }
 
 footer img {
-    width: 30px;
-    margin: 0 35px;
+    width: 40px;
+    margin: 10px 45px;
 }
 
 
